@@ -11,7 +11,6 @@ func main() {
 	s := events.EventsServer{}
 
 	grpcServer := grpc.NewServer()
-	// RegisterStreamServer - ./events/events.pb.go
 	events.RegisterStreamServer(grpcServer, &s)
 
 	l, err := net.Listen("tcp", ":8081")

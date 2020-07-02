@@ -1,4 +1,5 @@
-package mainhttps://github.com/ChoNakyun/go_grpc_socketio_proxy/blob/master/server_for_tests.go
+package main
+
 import (
 	"log"
 	"net"
